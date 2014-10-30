@@ -37,8 +37,8 @@ public class ArrayAlg {
 	}
 
 	public static Pair minmax(double[] values) {
-		double min = Double.MAX_VALUE;
-		double max = Double.MIN_VALUE;
+		double max = Double.MAX_VALUE;
+		double min = Double.MIN_VALUE;
 
 		for (double v : values) {
 
@@ -48,7 +48,6 @@ public class ArrayAlg {
 				max = v;
 
 		}
-
 		return new Pair(min, max);
 
 	}
