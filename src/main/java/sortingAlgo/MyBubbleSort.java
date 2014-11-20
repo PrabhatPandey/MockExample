@@ -3,11 +3,11 @@ package sortingAlgo;
 public class MyBubbleSort {
 
 	// logic to sort the elements
-	//Coding is wrong although it sorts the array anyway 
-	//Look it up in the internet.
+	// Coding is wrong although it sorts the array anyway
+	// Look it up in the internet.
 	public static void bubble_srt(int array[]) {
-		for(int i : array){
-			System.out.print(" "+i);
+		for (int i : array) {
+			System.out.print(" " + i);
 		}
 		int n = array.length;
 		int k;
@@ -42,6 +42,5 @@ public class MyBubbleSort {
 	public static void main(String[] args) {
 		int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
 		bubble_srt(input);
-
 	}
 }
