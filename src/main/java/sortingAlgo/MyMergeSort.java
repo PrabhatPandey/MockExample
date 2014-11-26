@@ -38,7 +38,6 @@ public class MyMergeSort {
 	}
 //Understand this step.
 	private void mergeParts(int lowerIndex, int middle, int higherIndex) {
-
 		for (int i = lowerIndex; i <= higherIndex; i++) {
 			tempMergArr[i] = array[i];
 		}

@@ -3,7 +3,6 @@ import java.util.Iterator;
 import java.util.ListIterator;
 
 public class Repetition {
-
 	public static void main(String[] args) {
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("Prabhat");
@@ -27,13 +26,12 @@ public class Repetition {
 				String nextElement = iter.next();
 				if (temp.equals(nextElement)) {
 					count++;
-//					list.remove(temp);
+					// list.remove(temp);
 				}// If
 				iter.remove();
 			}// while
 			System.out.println(list.get(i) + " ==> " + count);
 			count = 0;
 		}// for
-
 	}
 }
